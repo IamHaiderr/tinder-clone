@@ -21,7 +21,7 @@ app.use(cors());
 
 //API end points
 app.get('/', (req, res ) => {
-    res.status(200).send('Hello Clever Programmer!!!mian g')
+    res.status(200).send('Hello Clever Programmer!!!')
 })
 
 app.post('/tinder/cards', (req,res) => {
